@@ -1,0 +1,65 @@
+body {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.header {
+	text-align: center;
+	border: 15px solid #E3F2FD;
+	padding: 10px;
+}
+
+input[type=text] {
+	width: 520px;
+	height: 25px;
+	padding-left: 10px;
+}
+
+input[type=button] {
+	background-color: #1D88E5;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+	width: 170px;
+	height: 30px;
+}
+
+input {
+	margin: 10px;
+}
+
+.vremeaAcum {
+	border: 15px solid #E3F2FD;
+	padding: 20px;
+	height: 370px;
+}
+
+.prognoza {
+	border: 15px solid #E3F2FD;
+	padding: 20px;
+}
+
+#contentVreme {
+	display: flex;
+}
+
+.progZile {
+	flex: 1;
+	text-align: center;
+	margin: 5px;
+}
+
+.progZile img {
+	margin-top: 15px;
+}
+
+.dataZi {
+	background-color: #BBDEFB;
+	margin: 0 15px;
+}
+
+.hProg {
+	height: 150px;
+}

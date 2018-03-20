@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prognoza meteo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<input type="text" name="cauta" placeholder="Cauta orasul..." id="orasCautat">
+		<input type="button" name="vremea" value="Afiseaza vremea" onclick="afiseazaVremea()">
+		<input type="button" name="prognoza" value="Afiseaza prognoza" onclick="afiseazaPrognoza()">
+	</div>
+
+	<div class="vremeaAcum">
+		<p style="font-weight: bold; font-size: 1.2em;">Vremea acum</p>
+		<hr />
+		<div style="float: left;">
+			<img id="vremeIcon">
+			<div>Descriere: <span id="descriere"></span></div>
+			<div>Umiditate: <span id="umiditate"></span></div>
+			<div>Presiune: <span id="presiune"></span></div>
+			<div>Temperatura curenta: <span id="temperatura"></span></div>
+			<div>Minima zilei: <span id="minima"></span></div>
+			<div>Maxima zilei: <span id="maxima"></span></div>
+		</div> 
+	
+
+		<div class="harta" style="float: right;">
+			<iframe
+				width="700"
+				height="300"
+				frameborder="0" style="border:0"	 
+				allowfullscreen>
+			</iframe>
+		</div>
+	</div>
+
+	<div class="prognoza">
+		<p style="font-weight: bold; font-size: 1.2em;">Vremea in urmatoarele zile</p>
+		<hr />
+		<table id="contentVreme">
+
+		</table>
+	</div>
+
+	
+
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>
