@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="content">
+		<h2>SHOPPING LIST</h2>
+		<div id="form">
+			<input type="text" id="field" onkeypress="enterKey(event)">
+			<input type="button" id="add" value="Add Item" onclick="addItem()">
+		</div>
+
+		<input type="button" value="Sort asc" class="sort" onclick="sortAsc()">
+		<input type="button" value="Sort desc" class="sort" onclick="sortDesc()">
+
+		<div>
+			<span class="head">Item Description</span>
+			<span class="head">Action</span>
+			<ul id="list">
+
+			</ul>
+		</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="index.js">
+
+</script>
+</html>
