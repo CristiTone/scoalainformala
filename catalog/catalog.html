@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="listContainer">
+		<h2>Lista elevi</h2>
+		<form onsubmit="addStudent(this, event)">
+			<fieldset>
+				<span>Nume: </span><input type="text" name="nume" id="textField" >
+				<input type="submit" name="submit" id="submitName" value="Adauga elev">
+			</fieldset>
+		</form>
+		<fieldset>
+			<table id="tableStudents">
+				<span class="sort" onclick="sortAscStudents()">Sorteaza ascendent dupa medie note</span> <br />
+				<span class="sort" onclick="sortDescStudents()">Sorteaza descendent dupa medie note</span>
+				<thead>
+					<tr>
+						<th>Nume</th>
+						<th>Medie note</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					
+				</tbody>
+			</table>
+		</fieldset>
+	</div>
+
+	<div id="gradeContainer">
+		<button onclick="hideGradesContainer()">Ascunde Notele</button>
+		<h2>Note elev: <span id="numeElev"></span></h2>
+		<form onsubmit="addGrade(this, event)">
+			<fieldset>
+				<span>Nota: </span><input type="number" name="nota" id="gradeField" >
+				<input type="submit" name="submit" id="submitGrade" value="Adauga nota">
+			</fieldset>
+		</form>
+		<fieldset>
+			<table id="tableGrades">
+				<span class="sort" onclick="sortAscGrades()">Sorteaza ascendent notele</span> <br />
+				<span class="sort" onclick="sortDescGrades()">Sorteaza descendent notele</span>
+				<thead>
+					<tr>
+						<th>Nota</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+				</tbody>
+			</table>
+		</fieldset>
+	</div>
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>

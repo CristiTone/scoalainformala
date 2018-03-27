@@ -1,0 +1,39 @@
+html {
+	height: 100%
+}
+body {
+	display: flex;
+	margin: 0;
+	height: 100%;
+}
+
+#listContainer {
+	flex: 1;
+	background-color: #ACFE2F;
+
+}
+
+#gradeContainer {
+	flex: 1;
+	background-color: #ADD8E5;
+	display: none;
+}
+
+.sort {
+	background-color: #007F00;
+	color: white;
+}
+
+fieldset {
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+th, td {
+	width: 300px;
+	text-align: center;
+}
+
+table {
+	margin: 0 auto;
+}
