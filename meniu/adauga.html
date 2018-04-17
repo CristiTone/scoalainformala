@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		html {
+			background-color: #B9F3ED;
+		}
+
+		.container {
+			box-sizing: border-box; 
+			width: 1000px; 
+			margin: 80px auto; 
+			padding: 0 15px;
+		}
+
+		span {
+			margin: 20px;
+		}
+
+		table {
+			margin-top: 20px;
+		}
+
+		td {
+			width: 200px;
+		}
+
+		input, textarea {
+			width: 400px;
+		}
+
+		#addBtn {
+			width: 120px;
+			background-color: #6696F8;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			padding: 8px;
+		}
+
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+		<span style="font-size: 30px"><strong>Cald si bun (Admin)</strong></span>
+		<form method="post" onsubmit="adaugaReteta(this, event)">
+			<table> 
+				<tr>
+					<td>Nume: </td><td><input type="text" name="nume"></td>
+				</tr>
+				<tr>
+					<td>URL Imagine: </td><td><input type="text" name="url"></td>
+				</tr>
+				<tr>
+					<td>Ingrediente: </td><td><textarea name="ingrediente"></textarea></td>
+				</tr>
+				<tr>
+					<td>Mod de preparare: </td><td><textarea name="preparare"></textarea></td>
+				</tr>
+			</table>
+			<input type="submit" value="Adauga preparat" id="addBtn">
+		</form>
+	</div>
+</body>
+<script type="text/javascript" src="adauga.js"></script>
+</html>

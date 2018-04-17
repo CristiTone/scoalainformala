@@ -1,0 +1,63 @@
+html {
+	background-color: #B9F3ED;
+}
+
+.container {
+	box-sizing: border-box; 
+	width: 1000px; 
+	margin: 80px auto; 
+	padding: 0 15px;
+}
+
+#contactBtn, #adminBtn {
+	float: right;
+	background-color: #6696F8;
+	color: white;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+
+#ingredientsInput {
+	height: 25px;
+	width: 250px;
+}
+
+#ingredientsBtn {
+	background-color: #BBA6DB;
+	height: 32px;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.tableMenu {
+	margin-top: 20px;
+}
+
+img {
+	height: 150px; 
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+.ingredientsData {
+	width: 700px;
+	padding-left: 30px;
+}
+
+a {
+	text-decoration: none;
+	background-color: #E34262;
+	border-radius: 3px;
+	padding: 10px;
+	color: white;
+}
+
+#loading img{
+	margin-top: 20px;
+	width: 100px;
+	height: 100px;
+}

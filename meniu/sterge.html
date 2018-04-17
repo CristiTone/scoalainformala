@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		html {
+			background-color: #B9F3ED;
+		}
+
+		.container {
+			box-sizing: border-box; 
+			width: 1000px; 
+			margin: 80px auto; 
+			padding: 0 15px;
+		}
+
+		span {
+			margin: 20px;
+		}
+
+		input[name=da] {
+			background-color: #E34262;
+		}
+
+		input[name=nu] {
+			background-color: #6696F8;
+		}
+
+		input {
+			border: none;
+			color: white;
+			border-radius: 5px;
+			padding: 5px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body onload="getNume()">
+	<div class="container">
+		<span style="font-size: 30px"><strong>Cald si bun (Admin)</strong></span>
+		<h3>Esti pe cale sa stergi preparatul: "<span id="titlu" style="margin: 0"></span>"</h3>
+		<p>Sigur vrei sa stergi reteta?</p>
+		<input type="button" name="da" value="Da" onclick="sterge()">
+		<input type="button" name="nu" value="Nu" onclick="revenire()">
+	</div>
+</body>
+<script type="text/javascript" src="sterge.js"></script>
+</html>

@@ -1,0 +1,60 @@
+html {
+	background-color: #B9F3ED;
+}
+
+.container {
+	box-sizing: border-box; 
+	width: 1000px; 
+	margin: 80px auto; 
+	padding: 0 15px;
+}
+
+#addBtn {
+	float: right;
+	background-color: #6696F8;
+	color: white;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.tableMenu {
+	margin-top: 25px;
+}
+
+#modificaBtn {
+	text-decoration: none;
+	background-color: #6696F8;
+	border-radius: 3px;
+	padding: 10px;
+	color: white;
+	margin-right: 10px;
+}
+
+#stergeBtn {
+	text-decoration: none;
+	background-color: #E34262;
+	border-radius: 3px;
+	padding: 10px;
+	color: white;
+}
+
+.imagin {
+	height: 150px; 
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+.ingredientsData {
+	width: 700px;
+	padding-left: 30px;
+}
+
+#loading img{
+	margin-top: 20px;
+	width: 100px;
+	height: 100px;
+}

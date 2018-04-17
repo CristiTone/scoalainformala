@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="meniu.css">
+</head>
+<body onload="drawMenu()">
+	<div class="container">
+		<div class="header">
+			<span style="font-size: 30px"><strong>Cald si bun</strong></span> 
+			<a href="harta.html" id="contactBtn">Contact</a>
+			<a href="meniuAdmin.html" id="adminBtn">Sign In</a> 
+		</div>
+		<div style="padding-top: 20px;">
+			<input type="text" id="ingredientsInput" onkeypress="enter()">
+			<input type="button" value="Cauta in ingrediente" id="ingredientsBtn" onclick="draw()">
+		</div>	
+
+		<div id="loading"><img src="loading.gif"></div>
+
+		<div class="tableMenu">
+			<table>
+				<tbody>
+					
+				</tbody>
+			</table>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="meniu.js"></script>
+</html>
